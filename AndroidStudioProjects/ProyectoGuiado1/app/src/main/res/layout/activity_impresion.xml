@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tu información fue:" />
+
+    <TextView
+        android:id="@+id/Dinero"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="La cantidad de dinero ingresada fue:" />
+
+    <TextView
+        android:id="@+id/Tasa"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="La tasa de interés ingresada fue:" />
+
+    <TextView
+        android:id="@+id/CDIA"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="La cantidad de días fueron:" />
+
+    <TextView
+        android:id="@+id/Total"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="El resultado es:" />
+</LinearLayout>

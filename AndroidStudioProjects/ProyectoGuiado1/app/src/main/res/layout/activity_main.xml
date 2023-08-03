@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/undefined"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:autofillHints="creditCardExpirationDate"
+        android:text="@string/txtTitulo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <EditText
+        android:id="@+id/txtCantidadDeDinero"
+        android:inputType="numberDecimal"
+        android:layout_width="229dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="0dp"
+        android:autofillHints="creditCardExpirationDate"
+        android:hint="@string/txtCantidadDeDinero"
+        android:orientation="horizontal" />
+
+    <EditText
+        android:id="@+id/txtTasaDeInteres"
+        android:layout_width="229dp"
+        android:inputType="numberDecimal"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="0dp"
+        android:autofillHints="creditCardExpirationDate"
+        android:hint="@string/txtTasaDeInteres"
+        android:orientation="horizontal" />
+
+<TableRow android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtDias"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="280dp"
+        android:text="@string/txtDias"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtDia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-250dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/txtDia" />
+
+
+</TableRow>
+    <SeekBar
+        android:id="@+id/sbDias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:max="100"
+        android:progressTint="@color/rosadoOscuro"
+        android:thumbTint="@color/rosadoOscuro" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_weight="1"
+            android:text="@string/btnCalcular"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnLimpiar"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnImpresion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="28dp"
+            android:layout_weight="1"
+            android:text="@string/btnImpresion"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txtRespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/txtResultado"
+        android:textSize="15sp"
+        android:textAlignment="center" />
+
+
+</LinearLayout>

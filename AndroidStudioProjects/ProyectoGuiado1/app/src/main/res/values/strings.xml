@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ProyectoGuiado1</string>
+    <string name="txtTitulo">Cálculo de Intereses</string>
+    <string name="txtCantidadDeDinero">Cantidad de dinero</string>
+    <string name="txtTasaDeInteres">Tasa de interes</string>
+    <string name="txtDias">Días:</string>
+    <string name="btnCalcular">CALCULAR</string>
+    <string name="btnLimpiar">LIMPIAR</string>
+    <string name="btnImpresion">IMPRESION</string>
+    <string name="txtResultado">El resultado es: </string>
+    <string name="txtDia">0</string>
+
+    <!--Impresiones -->
+
+
+
+
+</resources>
